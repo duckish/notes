@@ -2,6 +2,7 @@
 
 1. [kind](./kind.md)
 2. [kubectl](./kubectl.md)
+3. [pyenv](./pyenv.md)
 
 ### Cluster
 
