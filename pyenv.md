@@ -32,3 +32,8 @@ Creating a virtual environment is a single command
 ```
 pyenv virtualenv <python_version> <environment_name>
 ```
+
+Active virtual env
+```
+pyenv local myproject
+```
