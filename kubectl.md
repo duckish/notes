@@ -3,7 +3,7 @@
 1. [kind](./kind.md)
 2. [kubectl](./kubectl.md)
 
-### Markdown
+### Context
 
 Show contexts
 
@@ -11,5 +11,4 @@ Show contexts
 kubectl config get-contexts
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
