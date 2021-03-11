@@ -1,8 +1,7 @@
 ## Welcome to Kubectl notes
 
-[kubectl](./kubectl.md)
-[kind](./kind.md)
-
+1. [kind](./kind.md)
+2. [kubectl](./kubectl.md)
 
 ### Markdown
 
