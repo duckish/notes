@@ -1,9 +1,8 @@
 ## Welcome to Notes
 
 ```markdown
-
-1. [kubectl](./kubectl.md)
-2. [kind](./kind.md)
+1. [kind](./kind.md)
+2. [kubectl](./kubectl.md)
 ```
 
 ### Markdown
