@@ -12,4 +12,12 @@ Show contexts
 kubectl config get-contexts
 ```
 
+List all namespaces
+
+Docs : https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ 
+
+```markdown
+kubectl get namespace
+```
+
 
