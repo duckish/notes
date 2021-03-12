@@ -26,10 +26,16 @@ List all pods in current namespace
 kubectl get pods
 ```
 
-Describe specific pod 
+Describe specific pod in current namespace 
 
 ```markdown
 kubectl describe pods <pod_name>
+```
+
+Describe specific pod in specific namespace
+
+```markdown
+kubectl describe pods <pod_name> --namespace=<namespace>
 ```
 
 
