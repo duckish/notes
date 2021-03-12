@@ -20,4 +20,16 @@ Docs : https://kubernetes.io/docs/concepts/overview/working-with-objects/namespa
 kubectl get namespace
 ```
 
+List all pods in current namespace 
+
+```markdown
+kubectl get pods
+```
+
+Describe specific pod 
+
+```markdown
+kubectl describe pods <pod_name>
+```
+
 
