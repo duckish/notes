@@ -38,4 +38,9 @@ Describe specific pod in specific namespace
 kubectl describe pods <pod_name> --namespace=<namespace>
 ```
 
+Get logs from pod
+```
+kubectl logs $POD_NAME
+```
+
 
