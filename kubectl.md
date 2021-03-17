@@ -59,4 +59,8 @@ kubectl config set-context --current --namespace=<insert-namespace-name-here>
 kubectl config view --minify | grep namespace:
 ```
 
+Connect to running containner
+```
+kubectl exec --stdin --tty <pod_name> -- /bin/bash
+```
 
