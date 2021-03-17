@@ -6,12 +6,21 @@
 
 ### Context
 
-List all contexts
+Get current context
+```markdown
+kubectl config current-context
+```
+
+List all the Contexts in a kubeconfig file:
 
 ```markdown
 kubectl config get-contexts
 ```
 
+Switch Context:
+```markdown
+kubectl config use-context <context_name>
+```
 List all namespaces
 
 Docs : https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ 
