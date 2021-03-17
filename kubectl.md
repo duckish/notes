@@ -43,4 +43,9 @@ Get logs from pod
 kubectl logs $POD_NAME
 ```
 
+Save the namespace for all subsequent kubectl commands
+```
+kubectl config set-context --current --namespace=<insert-namespace-name-here>
+```
+
 
