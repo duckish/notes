@@ -6,7 +6,7 @@
 
 ### Context
 
-Show contexts
+List all contexts
 
 ```markdown
 kubectl config get-contexts
