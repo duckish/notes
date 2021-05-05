@@ -36,11 +36,12 @@ brigade/brigade-k8s-gateway 	0.3.0        	           	A Helm chart for Kubernet
 brigade/brigade-project     	1.0.0        	v1.0.0     	Create a Brigade project                          
 brigade/kashti              	0.6.0        	v0.4.0     	A Helm chart for Kubernetes
 
-Install chart:
 
-<name> = the name of your installation you can call it anythnig
-<values_file>
-<chart_name> = name of chart, you can not decide this, it should exist in repo
+Install chart
+
 ```
 helm install <name> -f jenkins_values.yml <chart_name> --namespace <kube_namespace>
 ```
+<name> = the name of your installation you can call it anythnig
+<values_file>
+<chart_name> = name of chart, you can not decide this, it should exist in repo
